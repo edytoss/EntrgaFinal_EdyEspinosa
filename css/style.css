@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sombras {
+  box-shadow: 0 10px 30px -10px rgb(0, 0, 0);
+}
+
+.title_size {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.txt_size {
+  font-size: 2rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+.txt__size2 {
+  font-size: 200px;
+}
+
+.color__txt {
+  color: white;
+}
+
+.color__card {
+  background-color: #01560a;
+  color: white;
+}
+
+main h1 {
+  font-family: "Mukta", sans-serif;
+}
+main h2 {
+  color: white;
+}
+main label {
+  font-size: x-large;
+}
+
+.flex_linea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img_size {
+  max-width: 100%;
+}
+
+.nav__color {
+  background: #0c8318;
+}
+
+li a {
+  border-radius: 7px 13px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+.footer__intro {
+  color: white;
+}
+
+.footer__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+  font-size: 50px;
+}
+
+.foot_icon--asp {
+  color: white;
+}
+
+@media (max-width: 810px) {
+  iframe {
+    width: 300px;
+  }
+  .txt_size {
+    font-size: 1.25rem;
+    text-align: start;
+  }
+  .footer__icons {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media (min-width: 800px) {
+  h1 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

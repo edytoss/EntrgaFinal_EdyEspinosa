@@ -1,0 +1,18 @@
+.nav__color {
+  background: #0c8318;
+}
+
+li {
+  a {
+    border-radius: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+  }
+}
+
+li {
+  a:hover {
+    font-weight: bold;
+  }
+}
